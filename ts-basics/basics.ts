@@ -23,7 +23,8 @@ const myPerson: MyPersonType  = {
     last: 'Jones',
 };
 
-const ids = {
+// Record is a utility type allowing one to specify types for keys and for values.
+const ids: Record<number, string> = {
     10: 'a',
     20: 'b',
 };
