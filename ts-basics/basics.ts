@@ -29,3 +29,12 @@ const ids: Record<number, string> = {
     20: 'b',
 };
 ids[30] = 'c';
+
+// conditionals not really affected, only variable declarations
+if (ids[30] === 'D') {
+    console.log('Eureka')
+}
+
+for(let i = 0; i < 10; i++) {
+    console.log(i);
+}
