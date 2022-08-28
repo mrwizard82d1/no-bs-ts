@@ -22,3 +22,9 @@ const myPerson: MyPersonType  = {
     first: 'Larry',
     last: 'Jones',
 };
+
+const ids = {
+    10: 'a',
+    20: 'b',
+};
+ids[30] = 'c';
