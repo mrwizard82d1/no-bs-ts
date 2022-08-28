@@ -1,6 +1,10 @@
-const userName = 'Larry';
-let hasLoggedIn = true;
+let userName: string = 'Larry';
+let hasLoggedIn: boolean = true;
 
-hasLoggedIn += ' Jones';
+userName += ' Jones';
 
-console.log(hasLoggedIn);
+console.log(userName);
+
+let myNumber: number = 10;
+
+let myRegex: RegExp = /foo/;
