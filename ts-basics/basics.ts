@@ -19,4 +19,5 @@ const myPerson: {
 } = {
     first: 'Larry',
     last: 'Jones',
+    cool: true,
 };
