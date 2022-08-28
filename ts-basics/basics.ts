@@ -13,11 +13,12 @@ const names: string[] = userName.split(' ');
 
 const myValues: Array<number> = [1, 2, 3]
 
-const myPerson: {
+type MyPersonType = {
     first: string,
     last: string,
-} = {
+};
+
+const myPerson: MyPersonType  = {
     first: 'Larry',
     last: 'Jones',
-    cool: true,
 };
